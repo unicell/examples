@@ -18,7 +18,7 @@ import (
 	_ "github.com/micro/go-plugins/client/selector/static"
 
 	// disable namespace by default
-	_	"github.com/micro/go-micro/api"
+	_ "github.com/micro/go-micro/api"
 )
 
 func main() {

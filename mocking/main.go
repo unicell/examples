@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/micro/cli"
+	"github.com/micro/cli/v2"
 	proto "github.com/micro/examples/helloworld/proto"
 	"github.com/micro/examples/mocking/mock"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 )
 
 func main() {

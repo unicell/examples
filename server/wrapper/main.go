@@ -6,8 +6,8 @@ import (
 	"context"
 	"github.com/micro/examples/server/handler"
 	"github.com/micro/examples/server/subscriber"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/server"
+	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/micro/go-micro/v2/server"
 )
 
 func logWrapper(fn server.HandlerFunc) server.HandlerFunc {

@@ -12,7 +12,7 @@ Check out the [greeter](greeter) example using go-micro/service/grpc
 ### Import go-micro/service/grpc
 
 ```
-import "github.com/micro/go-micro/service/grpc"
+import "github.com/micro/go-micro/v2/service/grpc"
 ```
 
 ### Create micro.Service
@@ -31,8 +31,8 @@ What if you want to add grpc to a pre-existing service? Use the build pattern fo
 package main
 
 import (
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/server"
 	cli "github.com/micro/go-plugins/client/grpc"
 	srv "github.com/micro/go-plugins/server/grpc"
 )

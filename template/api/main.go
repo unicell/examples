@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2/util/log"
 
 	"github.com/micro/examples/template/api/client"
 	"github.com/micro/examples/template/api/handler"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 
 	example "github.com/micro/examples/template/api/proto/example"
 )

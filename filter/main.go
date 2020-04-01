@@ -6,7 +6,7 @@ import (
 
 	"github.com/micro/examples/filter/version"
 	proto "github.com/micro/examples/service/proto"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 )
 
 func main() {

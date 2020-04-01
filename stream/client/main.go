@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"time"
 
 	"context"
 	proto "github.com/micro/examples/stream/server/proto"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 )
 
 func bidirectional(cl proto.StreamerService) {
@@ -45,15 +46,23 @@ func serverStream(cl proto.StreamerService) {
 		return
 	}
 
+	var i int
+
 	// server side stream
 	// receive messages for a 10 count
-	for j := 0; j < 10; j++ {
+	for {
 		rsp, err := stream.Recv()
 		if err != nil {
 			fmt.Println("recv err", err)
 			break
 		}
+		i++
 		fmt.Printf("got msg %v\n", rsp.Count)
+	}
+
+	if i < 10 {
+		fmt.Println("only got", i)
+		return
 	}
 
 	// close the stream
@@ -69,9 +78,15 @@ func main() {
 	// create client
 	cl := proto.NewStreamerService("go.micro.srv.stream", service.Client())
 
-	// bidirectional stream
-	bidirectional(cl)
+	for {
+		fmt.Println("Stream")
+		// bidirectional stream
+		bidirectional(cl)
 
-	// server side stream
-	serverStream(cl)
+		fmt.Println("ServerStream")
+		// server side stream
+		serverStream(cl)
+
+		time.Sleep(time.Second)
+	}
 }

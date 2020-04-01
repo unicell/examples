@@ -4,8 +4,8 @@ import (
 	"context"
 
 	example "github.com/micro/examples/template/srv/proto/example"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/server"
+	"github.com/micro/go-micro/v2"
+	"github.com/micro/go-micro/v2/server"
 )
 
 type exampleKey struct{}

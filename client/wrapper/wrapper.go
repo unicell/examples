@@ -6,10 +6,10 @@ import (
 
 	"context"
 	example "github.com/micro/examples/server/proto/example"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/micro/go-micro/v2/metadata"
+	"github.com/micro/go-micro/v2/registry"
 )
 
 // wrapper example code

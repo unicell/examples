@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/transport"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/transport"
 
 	hello "github.com/micro/examples/greeter/srv/proto/hello"
 

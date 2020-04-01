@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/micro/go-micro/web"
+	"github.com/micro/go-micro/v2/web"
 )
 
 func helloWorldHandler(w http.ResponseWriter, r *http.Request) {
@@ -14,7 +14,8 @@ func helloWorldHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	service := web.NewService(
-		web.Name("helloworld"),
+		web.Name("go.micro.web.helloworld"),
+		web.Icon("https://www.thefishsociety.co.uk/media/image/e3/1b/b0/prawn-ix.jpg"),
 	)
 
 	service.HandleFunc("/", helloWorldHandler)

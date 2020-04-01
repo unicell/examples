@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/micro/go-micro/config"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2/config"
+	"github.com/micro/go-micro/v2/util/log"
 	grpcConfig "github.com/micro/go-plugins/config/source/grpc"
 )
 
@@ -25,7 +25,7 @@ func main() {
 	)
 
 	// create new config
-	conf := config.NewConfig()
+	conf, _ := config.NewConfig()
 
 	// load the source into config
 	if err := conf.Load(source); err != nil {

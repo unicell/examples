@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	hello "github.com/micro/examples/grpc/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/service/grpc"
+	"github.com/micro/go-micro/v2/metadata"
+	"github.com/micro/go-micro/v2/service/grpc"
 
 	"context"
 )

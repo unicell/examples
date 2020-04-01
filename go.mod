@@ -2,6 +2,8 @@ module github.com/micro/examples
 
 go 1.13
 
+replace github.com/micro/go-micro/v2 => ../go-micro
+
 replace k8s.io/api => k8s.io/api v0.0.0-20190708174958-539a33f6e817
 
 replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190404173353-6a84e37a896d
@@ -27,13 +29,15 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.12.1
 	github.com/hailocab/go-geoindex v0.0.0-20160127134810-64631bfe9711
 	github.com/micro/cli v0.2.0
+	github.com/micro/cli/v2 v2.1.2
 	github.com/micro/go-micro v1.18.0
+	github.com/micro/go-micro/v2 v2.1.3-0.20200225164242-603d37b1351e
 	github.com/micro/go-plugins v1.4.0
 	github.com/micro/micro v1.15.1
 	github.com/pborman/uuid v1.2.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/vektah/gqlparser v1.2.0
-	golang.org/x/net v0.0.0-20191109021931-daa7c04131f5
-	google.golang.org/genproto v0.0.0-20191108220845-16a3f7862a1a
-	google.golang.org/grpc v1.25.1
+	golang.org/x/net v0.0.0-20200222125558-5a598a2470a0
+	google.golang.org/genproto v0.0.0-20191216164720-4f79533eabd1
+	google.golang.org/grpc v1.26.0
 )

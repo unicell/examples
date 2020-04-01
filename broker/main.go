@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/config/cmd"
+	"github.com/micro/go-micro/v2/broker"
+	"github.com/micro/go-micro/v2/config/cmd"
 )
 
 var (

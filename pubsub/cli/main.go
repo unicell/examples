@@ -6,8 +6,8 @@ import (
 
 	"context"
 	proto "github.com/micro/examples/pubsub/srv/proto"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-micro/v2"
+	"github.com/micro/go-micro/v2/util/log"
 	"github.com/pborman/uuid"
 )
 

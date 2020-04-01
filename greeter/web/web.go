@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/web"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/web"
 
 	"context"
 )
