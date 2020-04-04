@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/micro/plugin"
+	"github.com/micro/micro/v2/plugin"
 )
 
 type prefix struct {
@@ -15,15 +15,15 @@ type prefix struct {
 
 func (p *prefix) Flags() []cli.Flag {
 	return []cli.Flag{
-		cli.StringFlag{
-			Name:   "path_prefix",
-			Usage:  "Comma separated list of path prefixes to strip before continuing with request e.g /api,/foo,/bar",
-			EnvVar: "PATH_PREFIX",
+		&cli.StringFlag{
+			Name:    "path_prefix",
+			Usage:   "Comma separated list of path prefixes to strip before continuing with request e.g /api,/foo,/bar",
+			EnvVars: []string{"PATH_PREFIX"},
 		},
 	}
 }
 
-func (p *prefix) Commands() []cli.Command {
+func (p *prefix) Commands() []*cli.Command {
 	return nil
 }
 

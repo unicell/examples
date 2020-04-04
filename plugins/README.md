@@ -19,7 +19,7 @@ package main
 import (
 	"log"
 	"github.com/micro/cli/v2"
-	"github.com/micro/micro/plugin"
+	"github.com/micro/micro/v2/plugin"
 )
 
 func init() {
@@ -28,7 +28,7 @@ func init() {
 		plugin.WithFlag(cli.StringFlag{
 			Name:   "example_flag",
 			Usage:  "This is an example plugin flag",
-			EnvVar: "EXAMPLE_FLAG",
+			EnvVars: []string{"EXAMPLE_FLAG"},
 			Value: "avalue",
 		}),
 		plugin.WithInit(func(ctx *cli.Context) error {

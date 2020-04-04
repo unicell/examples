@@ -31,10 +31,11 @@ require (
 	github.com/micro/cli v0.2.0
 	github.com/micro/cli/v2 v2.1.2
 	github.com/micro/go-micro v1.18.0
-	github.com/micro/go-micro/v2 v2.3.0
+	github.com/micro/go-micro/v2 v2.4.0
 	github.com/micro/go-plugins v1.4.0
 	github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0
 	github.com/micro/micro v1.18.0
+	github.com/micro/micro/v2 v2.4.0
 	github.com/pborman/uuid v1.2.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/vektah/gqlparser v1.2.0
