@@ -10,8 +10,8 @@ import (
 type mockGreeterService struct {
 }
 
-func (m *mockGreeterService) Hello(ctx context.Context, req *proto.HelloRequest, opts ...client.CallOption) (*proto.HelloResponse, error) {
-	return &proto.HelloResponse{
+func (m *mockGreeterService) Hello(ctx context.Context, req *proto.Request, opts ...client.CallOption) (*proto.Response, error) {
+	return &proto.Response{
 		Greeting: "Hello " + req.Name,
 	}, nil
 }
