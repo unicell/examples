@@ -560,6 +560,7 @@ github.com/micro/go-micro/v2 v2.1.2/go.mod h1:6RewFTFMI5H5CbuQymu4eS0cFtqYsdGFru
 github.com/micro/go-plugins v1.4.0 h1:oLdSBuuuBgU/O9Z74qe+JWA6UkTbm09iWDhUEp/D1iw=
 github.com/micro/go-plugins v1.4.0/go.mod h1:wmKzWT+zwPYIz1tZqXsCdOSZAokIV2G6rGdNBtyImM8=
 github.com/micro/go-plugins v1.5.1 h1:swcFD7ynCTUo98APqIEIbPu2XMd6yVGTnI8PqdnCwOQ=
+github.com/micro/go-plugins v2.0.1+incompatible h1:WYNrIeBhv+84ASevN22Z6ijGJf8bfMsdYUuuh9C8JOc=
 github.com/micro/go-plugins/broker/grpc v0.0.0-20200119172437-4fe21aa238fd h1:6QLlk3RWBUguK33fykIFJ/5NlHIUJYGKPqKsdiWjQOs=
 github.com/micro/go-plugins/broker/grpc v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:CQuYCiQaIsHRE39FIyyoQWTTHi4Wu1q57jLeJFuYxw4=
 github.com/micro/go-plugins/client/selector/static v0.0.0-20200119172437-4fe21aa238fd h1:630xxJkK385NN7SjxDdXQJlVpQ3T/oOWEeBhNOyjmjY=
@@ -578,6 +579,8 @@ github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe2
 github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:vLczh/rwdiSOIgBcedyR1U8TnJj+ugnGzCmk4L62KBY=
 github.com/micro/go-plugins/wrapper/select/shard v0.0.0-20200119172437-4fe21aa238fd h1:poRDzHImUwx1M3xbDyTtqJ4yGfruhSz+6kIesvpcyvs=
 github.com/micro/go-plugins/wrapper/select/shard v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:eemNXYdCwGoCcdpQVy/lX5Yv6ac4cGOzHIpPeZI3dyU=
+github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0 h1:sJW6fDpSqlvFdUme66gOMSHOGRKFo9NoBqdRmWJaD5g=
+github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0/go.mod h1:+LBWZPqiGqEhJOCt2piU8VRwx5uwxfCgS4gXgO/XIQY=
 github.com/micro/mdns v0.3.0 h1:bYycYe+98AXR3s8Nq5qvt6C573uFTDPIYzJemWON0QE=
 github.com/micro/mdns v0.3.0/go.mod h1:KJ0dW7KmicXU2BV++qkLlmHYcVv7/hHnbtguSWt9Aoc=
 github.com/micro/micro v1.11.0/go.mod h1:EgjpA5oZwRSItsVumvTvCTw0jyZLMNu4JP2NHuWPe8w=

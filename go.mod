@@ -34,6 +34,7 @@ require (
 	github.com/micro/go-micro/v2 v2.4.0
 	github.com/micro/go-plugins v1.4.0
 	github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0
+	github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0
 	github.com/micro/micro v1.18.0
 	github.com/micro/micro/v2 v2.4.0
 	github.com/pborman/uuid v1.2.0
