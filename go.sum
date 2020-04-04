@@ -577,6 +577,8 @@ github.com/micro/go-plugins/registry/kubernetes v0.0.0-20200119172437-4fe21aa238
 github.com/micro/go-plugins/registry/kubernetes v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:v0tFStBVzQ4lWwzGY72o039WxS4exZi1lvxJPyrHEv8=
 github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe21aa238fd h1:XS/NXOrCScWh7FQtf0qxi3Yf+RwKGPjdapyb1OYeq0Q=
 github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:vLczh/rwdiSOIgBcedyR1U8TnJj+ugnGzCmk4L62KBY=
+github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0 h1:0Uq6QzvoUNIRQchHtrjgW+byIepyW8Vb0MUSWzHf3Ng=
+github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0/go.mod h1:FMSwQYGcA5k1ksLV7IFzBMdlhNqXzTYTZkHKEh1O3Mo=
 github.com/micro/go-plugins/wrapper/select/shard v0.0.0-20200119172437-4fe21aa238fd h1:poRDzHImUwx1M3xbDyTtqJ4yGfruhSz+6kIesvpcyvs=
 github.com/micro/go-plugins/wrapper/select/shard v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:eemNXYdCwGoCcdpQVy/lX5Yv6ac4cGOzHIpPeZI3dyU=
 github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0 h1:sJW6fDpSqlvFdUme66gOMSHOGRKFo9NoBqdRmWJaD5g=
