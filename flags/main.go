@@ -13,15 +13,15 @@ func main() {
 		// Add runtime flags
 		// We could do this below too
 		micro.Flags(
-			cli.StringFlag{
+			&cli.StringFlag{
 				Name:  "string_flag",
 				Usage: "This is a string flag",
 			},
-			cli.IntFlag{
+			&cli.IntFlag{
 				Name:  "int_flag",
 				Usage: "This is an int flag",
 			},
-			cli.BoolFlag{
+			&cli.BoolFlag{
 				Name:  "bool_flag",
 				Usage: "This is a bool flag",
 			},
@@ -34,12 +34,13 @@ func main() {
 	service.Init(
 		// Add runtime action
 		// We could actually do this above
-		micro.Action(func(c *cli.Context) {
+		micro.Action(func(c *cli.Context) error {
 			fmt.Printf("The string flag is: %s\n", c.String("string_flag"))
 			fmt.Printf("The int flag is: %d\n", c.Int("int_flag"))
 			fmt.Printf("The bool flag is: %t\n", c.Bool("bool_flag"))
 			// let's just exit because
 			os.Exit(0)
+			return nil
 		}),
 	)
 
