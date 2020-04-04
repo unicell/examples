@@ -6,7 +6,7 @@ import (
 
 	hello "github.com/micro/examples/greeter/srv/proto/hello"
 	k8s "github.com/micro/examples/kubernetes/go/micro"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
 )
 
 type Say struct{}

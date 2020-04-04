@@ -324,6 +324,8 @@ github.com/golang/protobuf v1.3.0/go.mod h1:Qd/q+1AKNOZr9uGQzbzCmRO6sUih6GTPZv6a
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.2 h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=
 github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/golang/protobuf v1.3.3 h1:gyjaxf+svBWX08ZjK86iN9geUJF0H6gp2IRKX6Nf6/I=
+github.com/golang/protobuf v1.3.3/go.mod h1:vzj43D7+SQXF/4pzW/hwtAqwc6iTitCiVSaWz5lYuqw=
 github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
 github.com/golang/snappy v0.0.1/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
 github.com/gomodule/redigo v2.0.0+incompatible/go.mod h1:B4C85qUVwatsJoIUNIfCRsp7qO0iAmpGFZ4EELWSbC4=
@@ -483,6 +485,7 @@ github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxv
 github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
+github.com/kr/pretty v0.2.0/go.mod h1:ipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfnI=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/pty v1.1.8/go.mod h1:O1sed60cT9XZ5uDucP5qwvh+TE3NnUj51EiZO/lmSfw=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
@@ -565,8 +568,12 @@ github.com/micro/go-plugins/broker/grpc v0.0.0-20200119172437-4fe21aa238fd h1:6Q
 github.com/micro/go-plugins/broker/grpc v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:CQuYCiQaIsHRE39FIyyoQWTTHi4Wu1q57jLeJFuYxw4=
 github.com/micro/go-plugins/client/selector/static v0.0.0-20200119172437-4fe21aa238fd h1:630xxJkK385NN7SjxDdXQJlVpQ3T/oOWEeBhNOyjmjY=
 github.com/micro/go-plugins/client/selector/static v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:4eBG31c1vKwTNUNslIuZ+XWxTkYLiCWCO3zjEQXXA7M=
+github.com/micro/go-plugins/client/selector/static/v2 v2.3.0 h1:h6+qRGATM88Jx8skCy7cgSlwckm7cikPJRClCUlHrFI=
+github.com/micro/go-plugins/client/selector/static/v2 v2.3.0/go.mod h1:I+iQFEytwxIBZC1K51+rCzr+jN63XB69pS5hPHDvz7Q=
 github.com/micro/go-plugins/config/source/configmap v0.0.0-20200119172437-4fe21aa238fd h1:z1JtF0AKmjOZDxY6xr2CS/FeqNtFvhiYmtqj5rj8q6c=
 github.com/micro/go-plugins/config/source/configmap v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:AfzOBbK+Gt3eKwKKZMOioiRvNmjBDwBmcBkhFItxbak=
+github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0 h1:vKg0mfROGlDW+lMerLyYysTX8QRrtkbSGjv8FCD41L8=
+github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0/go.mod h1:M7aaE28GkWtKTtjn+NeFYbkV6CyKCdbvQPCRJpMffHw=
 github.com/micro/go-plugins/config/source/grpc v0.0.0-20200119172437-4fe21aa238fd h1:v1bOQqtretn1apsQDPQ6xmKejApVA+5+JOtPw31uCI4=
 github.com/micro/go-plugins/config/source/grpc v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:M9m9hQfElJPYMZ1SRvHmXHbr4f4+AGgOhSGo/aRRj/s=
 github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0 h1:RyOxL0L/uYh0uc2PX/Kox5Ga2bfVVtwjqc9IqUK/hiY=
@@ -575,6 +582,8 @@ github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd h1:
 github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:Loouc88lHZedX09oWjcsc8caI87BKj/PuunUUW4uqvQ=
 github.com/micro/go-plugins/registry/kubernetes v0.0.0-20200119172437-4fe21aa238fd h1:FrlK4kIbFDRyROigjF2Uhn6kN2zIzKNQcRucTrq+Yfg=
 github.com/micro/go-plugins/registry/kubernetes v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:v0tFStBVzQ4lWwzGY72o039WxS4exZi1lvxJPyrHEv8=
+github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0 h1:JwALZIR6T7jsQZLvya+eMse3zLlh4WNBOQqgWHiWNH4=
+github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0/go.mod h1:FYW6TeTzkNn9KCK2kkfUFrQzggBbJWTtRXwVoHEBk/c=
 github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe21aa238fd h1:XS/NXOrCScWh7FQtf0qxi3Yf+RwKGPjdapyb1OYeq0Q=
 github.com/micro/go-plugins/wrapper/select/roundrobin v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:vLczh/rwdiSOIgBcedyR1U8TnJj+ugnGzCmk4L62KBY=
 github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0 h1:0Uq6QzvoUNIRQchHtrjgW+byIepyW8Vb0MUSWzHf3Ng=
@@ -1123,6 +1132,7 @@ gopkg.in/bsm/ratelimit.v1 v1.0.0-20160220154919-db14e161995a/go.mod h1:KF9sEfUPA
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/cheggaaa/pb.v1 v1.0.25/go.mod h1:V/YB90LKu/1FcN3WVnfiiE5oMCibMjukxqG/qStrOgw=
 gopkg.in/errgo.v2 v2.1.0/go.mod h1:hNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=
 gopkg.in/fsnotify.v1 v1.4.7 h1:xOHLXZwVvI9hhs+cLKq5+I5onOuwQLhQwiu63xxlHs4=

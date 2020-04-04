@@ -22,7 +22,7 @@ require (
 	github.com/emicklei/go-restful v2.11.1+incompatible
 	github.com/gin-gonic/gin v1.4.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.3.2
+	github.com/golang/protobuf v1.3.3
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/rpc v1.2.0
 	github.com/gorilla/websocket v1.4.1
@@ -33,7 +33,10 @@ require (
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/go-micro/v2 v2.4.0
 	github.com/micro/go-plugins v1.4.0
+	github.com/micro/go-plugins/client/selector/static/v2 v2.3.0
+	github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0
 	github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0
+	github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0
 	github.com/micro/micro v1.18.0
