@@ -32,7 +32,7 @@ require (
 	github.com/micro/go-plugins/client/selector/static/v2 v2.3.0
 	github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0
 	github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0
-	github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd
+	github.com/micro/go-plugins/registry/etcd/v2 v2.3.0
 	github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0

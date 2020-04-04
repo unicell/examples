@@ -391,8 +391,8 @@ github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0 h1:vKg0mfROGlDW+lM
 github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0/go.mod h1:M7aaE28GkWtKTtjn+NeFYbkV6CyKCdbvQPCRJpMffHw=
 github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0 h1:RyOxL0L/uYh0uc2PX/Kox5Ga2bfVVtwjqc9IqUK/hiY=
 github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0/go.mod h1:hJmzNzgSPe9XZzkbB7kXaJBgZheNM79sFYoyqurWAA0=
-github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd h1:ZBwRuDGymfMFL6hoPOw4jVIZ/kNyygP9WEnT8xMWrCY=
-github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:Loouc88lHZedX09oWjcsc8caI87BKj/PuunUUW4uqvQ=
+github.com/micro/go-plugins/registry/etcd/v2 v2.3.0 h1:SMwt6KwoBop5t+1FPMQaXY/Xo1VZBkfihgzPe9lNL/M=
+github.com/micro/go-plugins/registry/etcd/v2 v2.3.0/go.mod h1:ngTHrsHMgpuTmt10Or8PEdjWS50sbauTqsL525gNGdo=
 github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0 h1:JwALZIR6T7jsQZLvya+eMse3zLlh4WNBOQqgWHiWNH4=
 github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0/go.mod h1:FYW6TeTzkNn9KCK2kkfUFrQzggBbJWTtRXwVoHEBk/c=
 github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0 h1:0Uq6QzvoUNIRQchHtrjgW+byIepyW8Vb0MUSWzHf3Ng=
