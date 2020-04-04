@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/micro/go-micro/v2/config"
 	"github.com/micro/go-micro/v2/util/log"
-	grpcConfig "github.com/micro/go-plugins/config/source/grpc"
+	grpcConfig "github.com/micro/go-plugins/config/source/grpc/v2"
 )
 
 type Micro struct {

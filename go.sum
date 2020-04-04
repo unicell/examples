@@ -296,6 +296,9 @@ github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/go-stomp/stomp v2.0.3+incompatible/go.mod h1:VqCtqNZv1226A1/79yh+rMiFUcfY3R109np+7ke4n0c=
 github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible/go.mod h1:qf9acutJ8cwBUhm1bqgz6Bei9/C/c93FPDljKWwsOgM=
+github.com/gobwas/httphead v0.0.0-20180130184737-2c6c146eadee/go.mod h1:L0fX3K22YWvt/FAX9NnzrNzcI4wNYi9Yku4O0LKYflo=
+github.com/gobwas/pool v0.2.0/go.mod h1:q8bcK0KcYlCgd9e7WYLm9LpyS+YeLd8JVDW6WezmKEw=
+github.com/gobwas/ws v1.0.3/go.mod h1:szmBTxLgaFppYjEmNtny/v3w89xOydFnnZMcgRRu/EM=
 github.com/godbus/dbus v0.0.0-20190422162347-ade71ed3457e/go.mod h1:bBOAhwG1umN6/6ZUMtDFBMQR8jRg9O75tm9K00oMsK4=
 github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
 github.com/gogo/protobuf v1.0.0/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
@@ -562,6 +565,8 @@ github.com/micro/go-plugins/config/source/configmap v0.0.0-20200119172437-4fe21a
 github.com/micro/go-plugins/config/source/configmap v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:AfzOBbK+Gt3eKwKKZMOioiRvNmjBDwBmcBkhFItxbak=
 github.com/micro/go-plugins/config/source/grpc v0.0.0-20200119172437-4fe21aa238fd h1:v1bOQqtretn1apsQDPQ6xmKejApVA+5+JOtPw31uCI4=
 github.com/micro/go-plugins/config/source/grpc v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:M9m9hQfElJPYMZ1SRvHmXHbr4f4+AGgOhSGo/aRRj/s=
+github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0 h1:RyOxL0L/uYh0uc2PX/Kox5Ga2bfVVtwjqc9IqUK/hiY=
+github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0/go.mod h1:hJmzNzgSPe9XZzkbB7kXaJBgZheNM79sFYoyqurWAA0=
 github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd h1:ZBwRuDGymfMFL6hoPOw4jVIZ/kNyygP9WEnT8xMWrCY=
 github.com/micro/go-plugins/registry/etcd v0.0.0-20200119172437-4fe21aa238fd/go.mod h1:Loouc88lHZedX09oWjcsc8caI87BKj/PuunUUW4uqvQ=
 github.com/micro/go-plugins/registry/kubernetes v0.0.0-20200119172437-4fe21aa238fd h1:FrlK4kIbFDRyROigjF2Uhn6kN2zIzKNQcRucTrq+Yfg=
