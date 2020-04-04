@@ -52,7 +52,7 @@ func main() {
 
 		// Add runtime flags
 		// We could do this below too
-		micro.Flags(cli.BoolFlag{
+		micro.Flags(&cli.BoolFlag{
 			Name:  "run_client",
 			Usage: "Launch the client",
 		}),
@@ -64,11 +64,12 @@ func main() {
 	service.Init(
 		// Add runtime action
 		// We could actually do this above
-		micro.Action(func(c *cli.Context) {
+		micro.Action(func(c *cli.Context) error {
 			if c.Bool("run_client") {
 				runClient(service)
 				os.Exit(0)
 			}
+			return nil
 		}),
 	)
 
