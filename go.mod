@@ -36,7 +36,6 @@ require (
 	github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0
 	github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0
-	github.com/micro/micro v1.18.0
 	github.com/micro/micro/v2 v2.4.0
 	github.com/pborman/uuid v1.2.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect

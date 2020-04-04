@@ -5,7 +5,7 @@ import (
 
 	"context"
 	"github.com/micro/go-micro/v2"
-	api "github.com/micro/micro/api/proto"
+	api "github.com/micro/micro/v2/api/proto"
 )
 
 type Redirect struct{}
