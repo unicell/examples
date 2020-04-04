@@ -2,8 +2,6 @@ module github.com/micro/examples
 
 go 1.13
 
-replace github.com/micro/go-micro/v2 => ../go-micro
-
 replace k8s.io/api => k8s.io/api v0.0.0-20190708174958-539a33f6e817
 
 replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190404173353-6a84e37a896d
