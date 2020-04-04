@@ -6,13 +6,13 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	gcli "github.com/micro/go-micro/client/grpc"
-	"github.com/micro/go-micro/config/cmd"
-	proto "github.com/micro/go-micro/debug/service/proto"
-	"github.com/micro/go-micro/util/log"
-	_ "github.com/micro/go-plugins/registry/kubernetes"
+	"github.com/micro/cli/v2"
+	"github.com/micro/go-micro/v2/client"
+	gcli "github.com/micro/go-micro/v2/client/grpc"
+	"github.com/micro/go-micro/v2/config/cmd"
+	proto "github.com/micro/go-micro/v2/debug/service/proto"
+	"github.com/micro/go-micro/v2/util/log"
+	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
 )
 
 const (
@@ -43,29 +43,29 @@ func init() {
 
 	app := cmd.App()
 	app.Flags = append(app.Flags,
-		cli.DurationFlag{
+		&cli.DurationFlag{
 			Name:        "connect_timeout",
 			Value:       time.Second,
 			Usage:       "timeout for establishing connection",
-			EnvVar:      "MICRO_CONNECT_TIMEOUT",
+			EnvVars:     []string{"MICRO_CONNECT_TIMEOUT"},
 			Destination: &connTimeout,
 		},
-		cli.DurationFlag{
+		&cli.DurationFlag{
 			Name:        "rpc_timeout",
 			Value:       time.Second,
 			Usage:       "timeout for health check rpc",
-			EnvVar:      "MICRO_RPC_TIMEOUT",
+			EnvVars:     []string{"MICRO_RPC_TIMEOUT"},
 			Destination: &rpcTimeout,
 		},
-		cli.BoolFlag{
+		&cli.BoolFlag{
 			Name:        "verbose",
 			Usage:       "verbose logs",
-			EnvVar:      "MICRO_VERBOSE",
+			EnvVars:     []string{"MICRO_VERBOSE"},
 			Destination: &verbose,
 		},
 	)
 
-	app.Action = func(c *cli.Context) {
+	app.Action = func(c *cli.Context) error {
 		serverName = c.String("server_name")
 		serverAddress = c.String("server_address")
 
@@ -81,6 +81,7 @@ func init() {
 		if rpcTimeout <= 0 {
 			argError("rpc timeout must be greater than zero (specified: %v)", rpcTimeout)
 		}
+		return nil
 	}
 
 	cmd.Init()
